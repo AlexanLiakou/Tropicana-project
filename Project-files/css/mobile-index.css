@@ -1,0 +1,41 @@
+/* Header styling */
+
+header{
+    flex-direction: column;
+}
+
+ul{
+    padding-right: 0px;
+}
+
+h1 a{
+    padding-left: 0px;
+}
+
+/* Showcase styling */
+
+@media (max-width: 340px){
+    .showcase-content{
+        padding-top: 80px;
+    }
+}
+
+/* Home section styling */
+
+#home-img{
+    display: none;
+}
+
+#home-content{
+    width: 100%;
+}
+
+/* Features styling */
+
+#features-section{
+    flex-direction: column;
+}
+
+.box{
+    margin-bottom: 20px;
+}

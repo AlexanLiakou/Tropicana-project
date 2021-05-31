@@ -1,0 +1,37 @@
+/* Header styling */
+
+header{
+    flex-direction: column;
+}
+
+ul{
+    padding-right: 0px;
+}
+
+h1 a{
+    padding-left: 0px;
+}
+
+/* Contact styling */
+
+@media (max-width: 340px){
+    #contact-form-p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 450px){
+    #contact-form-btn, textarea{
+        width: 75%;
+    }
+
+    textarea{
+        margin: auto;
+    }
+}
+
+/* Info box section styling */
+
+#info-section{
+    flex-direction: column;
+}
